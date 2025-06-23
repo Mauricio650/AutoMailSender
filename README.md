@@ -327,6 +327,7 @@ MIT License.
 ## ✍️ Authors
 
 - **Mauricio Ibañez Bermudez** - Original console script
+- **kalkrijk** - New implementations on console
 - **Abdulhameed Giwa** - Django web interface development
 
 ---
