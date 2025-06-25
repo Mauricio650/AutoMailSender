@@ -4,6 +4,9 @@ This project is an automation tool for sending bulk emails to a list of clients 
 
 **🆕 NEW: Web Interface Available!** - Now includes a Django-based web interface for easier email management through your browser.
 
+![image](https://github.com/user-attachments/assets/e930978d-f197-4ed3-9286-435fe25f92a1)
+
+
 ---
 
 ## 🚀 Features
