@@ -44,7 +44,7 @@ pip install pandas openpyxl
 
 ### For Web Interface:
 ```bash
-pip install django pandas openpyxl
+pip install django pandas openpyxl python-dotenv
 ```
 
 Or install from requirements file:
@@ -138,27 +138,32 @@ python script.py
 
 ### Option 2: Web Interface (NEW! 🌟)
 
-1. **Set up the Django project**:
+0. dont forget to create an .env in the root of the project with your secret key
+    ```bash
+   SECRET_KEY=tu_clave_secreta_segura_aqui
+   ```
+
+2. **Set up the Django project**:
    ```bash
    cd automailsender
    python manage.py makemigrations emailapp
    python manage.py migrate
    ```
 
-2. **Start the web server**:
+3. **Start the web server**:
    ```bash
    python manage.py runserver
    ```
 
-3. **Access the web interface**:
+4. **Access the web interface**:
    Open your browser and go to: `http://127.0.0.1:8000/`
 
-4. **Configure email settings**:
+5. **Configure email settings**:
    - Click on "Settings" in the navigation
    - Enter your email credentials and SMTP settings
    - Save the configuration
 
-5. **Send emails**:
+6. **Send emails**:
    - **Single Email**: Use the "Send Email" page for individual emails
    - **Bulk Email**: Use the "Bulk Email" page to upload an Excel file and send to multiple recipients
 
